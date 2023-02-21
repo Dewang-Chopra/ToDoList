@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "container">
+    <h1>ToDoList</h1>
+    <input type="text" id="entry">
+    <button id ="add">Add Item</button>
+    <button id ="hide">Hide List</button>
+    <ul id ="list">
+        <li class = "lis"> <span class = "item"> Macbook </span>
+            <i class="fa-solid fa-arrow-up " onclick = "up()" ></i>
+            <i class="fa-solid fa-arrow-down" onclick = "down()" ></i>
+            <span class= "right"><i class="fa-solid fa-xmark" onclick = "cross()" ></i></span>
+        </li>
+        <li class = "lis"> <span class = "item">Iphone</span>
+            <i class="fa-solid fa-arrow-up" onclick = "up()"></i>
+            <i class="fa-solid fa-arrow-down" onclick = "down()"></i>
+            <span class= "right"><i class="fa-solid fa-xmark cros"  onclick = cross()></i></span>
+        </li>
+        <li class = "lis"> <span class = "item"> Smartwatch</span>
+            <i  class="fa-solid fa-arrow-up" onclick = "up()"></i>
+            <i class="fa-solid fa-arrow-down" onclick = "down()"></i>
+            <span class= "right"><i class="fa-solid fa-xmark cros"  onclick = cross()></i></span>
+        </li>
+        <li class = "lis"><span class = "item"> Speakers </span>
+            <i class="fa-solid fa-arrow-up"onclick = "up()"></i>
+            <i class="fa-solid fa-arrow-down"onclick = "up()"></i>
+            <span class= "right"><i class="fa-solid fa-xmark cros"  onclick = cross()></i></span>
+        </li>
+    </ul>
+    <button id="del" >Delete All</button>
+</div>
+</body>
+<script src="https://kit.fontawesome.com/2501523056.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</html>
